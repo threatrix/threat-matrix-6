@@ -1,4 +1,24 @@
-private class SpringApplicationRunnerConfigurationAdapter 
+/*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Project: https://spring.io/projects/spring-boot
+*    Release: https://github.com/spring-projects/spring-boot/releases/tag/v1.5.19.RELEASE
+*    Source File: RunCommand.java
+*    
+*    Copyrights:
+*      copyright 2012-2017 the original author or authors
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
+private class SpringApplicationRunnerConfigurationAdapter
         extends OptionSetGroovyCompilerConfiguration
     implements SpringApplicationRunnerConfiguration {
 
