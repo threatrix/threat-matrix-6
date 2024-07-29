@@ -1,3 +1,5 @@
+// https://github.com/torvalds/linux/blob/v6.9/kernel/events/callchain.c
+
 struct callchain_cpus_entries {
     struct rcu_head            rcu_head;
     struct perf_callchain_entry    *cpu_entries[];
